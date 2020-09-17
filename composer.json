@@ -1,0 +1,36 @@
+{
+    "name": "noud/api-platform-user-bundle",
+    "description": "Users bundle conform API-Platform and Symfony",
+    "keywords": [
+        "users",
+        "API-Platform",
+        "Symfony",
+        "Bundle",
+        "symfony-bundle",
+        "bridge"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+          "name": "noud",
+          "email": "noud4@home.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/mailer": "5.2.*",
+        "symfony/security-bundle": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Noud\\UserBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Noud\\UserBundle\\Tests\\": "tests"
+        }
+    }
+}
